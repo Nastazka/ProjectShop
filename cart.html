@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Страница корзины">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Cart</title>
+</head>
+<body>
+    <h2 style="display: none;">Страница корзины</h2>
+    <header class="header">
+        <div class="header_Content container">
+            <div class="header_Content-leftSide">
+                <a href="./index.html"><img src="./img/Group2.png" alt="logo"></a>
+                <a href="#!"><img src="./img/search_icon.png" alt="forma" class="search-pic"></a>
+            </div>
+            <div class="header_Content-rightSide">
+                <div class="burger_container">
+                    <div class="menu">
+                        <input type="checkbox" name="dropdown" id="dropdown" class="menu_checkbox">
+                        <label for="dropdown" class="label">
+                            <img src="./img/burger.png" alt="catalog" class="label-img">
+                        </label>
+                    
+                        <nav class="dropdown_menu">
+                            <h5 class="dropdown_menu_title">MENU</h5>
+                        
+                            <div class="catalog_categories">
+                                <div class="catalog_block">
+                                    <a href="#">
+                                        <h6 class="catalog_name">MAN</h6>
+                                    </a>
+                                    <ul class="catalog_list">
+                                        <li><a href="#">Accessories</a></li>
+                                        <li><a href="#">Bags</a></li>
+                                        <li><a href="#">Denim</a></li>
+                                        <li><a href="#">T-Shirts</a></li>
+                                    </ul>
+                                </div>
+                                <div class="catalog_block">
+                                    <a href="#">
+                                        <h6 class="catalog_name">WOMAN</h6>
+                                    </a>
+                                    <ul class="catalog_list">
+                                        <li><a href="#">Accessories</a></li>
+                                        <li><a href="#">Jackets &#38; Coats</a></li>
+                                        <li><a href="#">Polos</a></li>
+                                        <li><a href="#">T-Shirts</a></li>
+                                        <li><a href="#">Shirts</a></li>
+                                    </ul>
+                                </div>
+                                <div class="catalog_block">
+                                    <a href="#">
+                                        <h6 class="catalog_name">KIDS</h6>
+                                    </a>
+                                    <ul class="catalog_list">
+                                        <li><a href="#">Accessories</a></li>
+                                        <li><a href="#">Jackets &#38; Coats</a></li>
+                                        <li><a href="#">Polos</a></li>
+                                        <li><a href="#">T-Shirts</a></li>
+                                        <li><a href="#">Shirts</a></li>
+                                        <li><a href="#">Bags</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <a href="./registration.html"><img src="./img/registration.png" alt="icon2" class="icon2"></a>
+                <a href="./cart.html"><img src="./img/cart.png" alt="icon3" class="icon3"></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <div class="breadCrumb">
+            <div class="breadCrumb_content container">
+                <div class="breadCrumb-leftSide">
+                    <p>SHOPPING CART</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart">
+            <div class="cart_content container">
+
+                <div class="cart_products">
+                    <div class="cart_product_card">
+                        <img src="./img/cart_product1.png" alt="product1">
+                        <div class="cart_product_description">
+                            <h3 class="cart_product_title">MANGO  PEOPLE <br>T-SHIRT</h3>
+                            <div class="cart_product_specific">
+                                <div class="specific_price">
+                                    <p>Price:</p>
+                                    <p class="price_value">$300</p>
+                                </div>
+                                <p>Color: Red</p>
+                                <p>Size: XL</p>
+                                <div class="specific_quanity">
+                                    <p>Quantity:</p>
+                                    <p class="quanity_value">2</p>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./img/cross.png" alt="cross" class="cross-icon">
+                    </div>
+                    <div class="cart_product_card">
+                        <img src="./img/cart_product2.png" alt="product2">
+                        <div class="cart_product_description">
+                            <h3 class="cart_product_title">MANGO  PEOPLE <br>T-SHIRT</h3>
+                            <div class="cart_product_specific">
+                                <div class="specific_price">
+                                    <p>Price:</p>
+                                    <p class="price_value">$300</p>
+                                </div>
+                                <p>Color: Red</p>
+                                <p>Size: XL</p>
+                                <div class="specific_quanity">
+                                    <p>Quantity:</p>
+                                    <p class="quanity_value">2</p>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="./img/cross.png" alt="cross" class="cross-icon">
+                    </div>
+                    <div class="cart_content_buttons">
+                        <button class="cart_content-btn">CLEAR SHOPPING CART</button>
+                        <button class="cart_content-btn">CONTINUE SHOPPING</button>
+                    </div>
+                </div>
+
+                <div class="cart_order">
+                    <div class="shippingAdress">
+                        <h3 class="shippingAdress_title">SHIPPING ADRESS</h3>
+                        <input type="text" placeholder="Bangladesh">
+                        <input type="text" placeholder="State">
+                        <input type="text" placeholder="Postcode / Zip">
+                        <button class="shippingAdress-btn">GET A QUOTE</button>
+                    </div>
+                    <div class="totalPrice">
+                        <div class="subTotal">
+                            <p>SUB TOTAL</p>
+                            <p>$900</p>
+                        </div>
+                        <div class="grandTotal">
+                            <p>GRAND TOTAL</p>
+                            <p class="grandTotal_price">$900</p>
+                        </div>
+                        <button class="totalPrice-btn">PROCEED TO CHECKOUT</button>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div class="subscribe">
+            <div class="subscribe_content container">
+                <div class="subscribe_content_leftSide">
+                    <img src="./img/Intersect.png" alt="image">
+                    <p><i>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</i></p>
+                </div>
+                <div class="subscribe_content_rightSide">
+                    <h3>SUBSCRIBE</h3>
+                    <h4>FOR OUR NEWLETTER AND PROMOTION</h4>
+                    <form action="subscribe">
+                        <input type="text" placeholder="Enter Your Email" class="subscribe_input">
+                        <button class="subscribe-btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer_content container">
+            <div class="footer_content_leftSide">
+                <p>© 2022  Brand  All Rights Reserved.</p>
+            </div>
+            <div class="footer_content_rightSide">
+                <img src="./img/footer_icon1.svg" alt="icon1">
+                <img src="./img/footer_icon2.svg" alt="icon2">
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
