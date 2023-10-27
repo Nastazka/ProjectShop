@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Страница регистрации">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Registration</title>
+</head>
+<body>
+    <h2 style="display: none;">Страница регистрации</h2>
+
+    <header class="header">
+        <div class="header_Content container">
+            <div class="header_Content-leftSide">
+                <a href="./index.html"><img src="./img/Group2.png" alt="logo"></a>
+                <a href="#!"><img src="./img/search_icon.png" alt="forma" class="search-pic"></a>
+            </div>
+            <div class="header_Content-rightSide">
+                <div class="burger_container">
+                    <div class="menu">
+                        <input type="checkbox" name="dropdown" id="dropdown" class="menu_checkbox">
+                        <label for="dropdown" class="label">
+                            <img src="./img/burger.png" alt="catalog" class="label-img">
+                        </label>
+                    
+                        <nav class="dropdown_menu">
+                            <h5 class="dropdown_menu_title">MENU</h5>
+                        
+                            <div class="catalog_categories">
+                                <div class="catalog_block">
+                                    <a href="#">
+                                        <h6 class="catalog_name">MAN</h6>
+                                    </a>
+                                    <ul class="catalog_list">
+                                        <li><a href="#">Accessories</a></li>
+                                        <li><a href="#">Bags</a></li>
+                                        <li><a href="#">Denim</a></li>
+                                        <li><a href="#">T-Shirts</a></li>
+                                    </ul>
+                                </div>
+                                <div class="catalog_block">
+                                    <a href="#">
+                                        <h6 class="catalog_name">WOMAN</h6>
+                                    </a>
+                                    <ul class="catalog_list">
+                                        <li><a href="#">Accessories</a></li>
+                                        <li><a href="#">Jackets &#38; Coats</a></li>
+                                        <li><a href="#">Polos</a></li>
+                                        <li><a href="#">T-Shirts</a></li>
+                                        <li><a href="#">Shirts</a></li>
+                                    </ul>
+                                </div>
+                                <div class="catalog_block">
+                                    <a href="#">
+                                        <h6 class="catalog_name">KIDS</h6>
+                                    </a>
+                                    <ul class="catalog_list">
+                                        <li><a href="#">Accessories</a></li>
+                                        <li><a href="#">Jackets &#38; Coats</a></li>
+                                        <li><a href="#">Polos</a></li>
+                                        <li><a href="#">T-Shirts</a></li>
+                                        <li><a href="#">Shirts</a></li>
+                                        <li><a href="#">Bags</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <a href="./registration.html"><img src="./img/registration.png" alt="icon2" class="icon2"></a>
+                <a href="./cart.html"><img src="./img/cart.png" alt="icon3" class="icon3"></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <div class="breadCrumb">
+            <div class="breadCrumb_content container">
+                <div class="breadCrumb-leftSide">
+                    <p>REGISTRATION</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="registration container">
+            <div class="registration_leftSide">
+                <div class="registration_leftSide_name">
+                    <h3>Your Name</h3>
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                </div>
+                <div class="registration_leftSide_gender">
+                    <input type="radio" class="radio-btn" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" class="radio-btn" id="female">
+                    <label for="male">Female</label>
+                </div>
+                <div class="registration_leftSide_login">
+                    <h3>Login details</h3>
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Password">
+                    <p>Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
+                    <button>JOIN NOW &nbsp &nbsp<img src="./img/arrow_join.svg" alt="arrow"></button>
+                </div>
+            </div>
+            <div class="registration_rightSide">
+                <h3 class="registration_rightSide_title">LOYALTY HAS ITS PERKS</h3>
+                <p class="registration_rightSide_desc">Get in on the loyalty program where you can earn points and<br> unlock serious perks. Starting with these as soon as you join:</p>
+                <ul class="registration_rightSide_list">
+                    <p><img src="./img/check_mark.svg" alt="check">&nbsp &nbsp15% off welcome offer</p>
+                    <p><img src="./img/check_mark.svg" alt="check">&nbsp &nbspFree shipping, returns and exchanges on all orders</p>
+                    <p><img src="./img/check_mark.svg" alt="check">&nbsp &nbsp$10 off a purchase on your birthday</p>
+                    <p><img src="./img/check_mark.svg" alt="check">&nbsp &nbspEarly access to products</p>
+                    <p><img src="./img/check_mark.svg" alt="check">&nbsp &nbspExclusive offers &#38; rewards</p>
+                </ul>
+            </div>
+        </div>
+
+        <div class="subscribe">
+            <div class="subscribe_content container">
+                <div class="subscribe_content_leftSide">
+                    <img src="./img/Intersect.png" alt="image">
+                    <p><i>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</i></p>
+                </div>
+                <div class="subscribe_content_rightSide">
+                    <h3>SUBSCRIBE</h3>
+                    <h4>FOR OUR NEWLETTER AND PROMOTION</h4>
+                    <form action="subscribe">
+                        <input type="text" placeholder="Enter Your Email" class="subscribe_input">
+                        <button class="subscribe-btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer_content container">
+            <div class="footer_content_leftSide">
+                <p>© 2022  Brand  All Rights Reserved.</p>
+            </div>
+            <div class="footer_content_rightSide">
+                <img src="./img/footer_icon1.svg" alt="icon1">
+                <img src="./img/footer_icon2.svg" alt="icon2">
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
